@@ -1,0 +1,36 @@
+.purof li {
+  font-size: 20px;
+}
+
+.profcontent p {
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+img {
+  width: 240px;
+  height: auto;
+  float: right;
+}
+
+.s {
+  font-size: 25px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.b {
+  margin-top: 15px;
+  border-left: 10px #ad7e4e solid;
+  padding: 10px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.profcontent {
+  margin-top: 100px;
+}
+
+.purof li {
+  margin-top: 10px;
+}

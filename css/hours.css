@@ -1,0 +1,98 @@
+table, th, td {
+  border: #426579 2.5px solid;
+  background: #eaedf7;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 45px auto 25px auto;
+  width: 85%;
+  table-layout: fixed;
+  height: 300px;
+}
+
+td {
+  padding: 25px;
+}
+
+main h1 {
+  display: flex;
+  align-items: center;
+  width: 18em;
+  margin: auto;
+}
+
+main h1:after,
+main h1:before {
+  content: "";
+  flex-grow: 1;
+  background: black;
+  height: 2px;
+}
+
+main h1:before {
+  margin-right: 0.5em;
+}
+main h1:after {
+  margin-left: 0.5em;
+}
+
+.tuiki {
+  display: block;
+  width: 24em;
+  margin: 0 auto 0 auto;
+}
+
+main h1 {
+  display: flex;
+  align-items: center;
+  width: 18em;
+  margin: auto;
+}
+
+main h1:after,
+main h1:before {
+  content: "";
+  flex-grow: 1;
+  background: black;
+  height: 2px;
+}
+
+main h1:before {
+  margin-right: 0.5em;
+}
+main h1:after {
+  margin-left: 0.5em;
+}
+
+main p {
+  text-align: center;
+  width: 21em;
+  margin: 0 auto 0 auto;
+}
+
+/* 吹き出し */
+.balloon1 {
+  position: relative;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  font-size: 16px;
+  width: 75%;
+  background: #e7e7ed;
+  margin: 0 auto 50px auto;
+  color: #555;
+  font-size: 16px;
+  background: #e7e7ed;
+}
+
+.balloon1:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #e7e7ed;
+}
+
+/* 吹き出し end */

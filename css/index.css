@@ -1,0 +1,15 @@
+.slideshow {
+  width: 100%;
+}
+
+.greet {
+  width: 80%;
+  margin: 45px auto 45px auto;
+  border: 2px solid #426579;
+  border-radius: 12px;
+  background-color: #eaf4fc;
+}
+
+.greet p {
+  padding: 12px;
+}

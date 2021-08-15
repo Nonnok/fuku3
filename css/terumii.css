@@ -1,0 +1,62 @@
+.explanation,
+.feature,
+.corporate,
+.HomeTherapy
+.sinyuu {
+  line-height: 1.6;
+  word-break: keep-all;
+  margin: 45px o 45px 5px;
+}
+
+.terumii-title {
+  margin: 50px 0 50px 0;
+  background: #e8d3c7;
+}
+
+.terumii-title span {
+  font-size: 15px;
+}
+
+.terumii-title a {
+  text-decoration: none;
+  color: #e8d3d1;
+  transition: .5s;
+  background: #956f29;
+}
+
+.terumii-title a:hover {
+  color: white;
+  background: #8c7042;
+}
+
+.explanation img,
+.feature img,
+.corporate img,
+.HomeTherapy img {
+  object-fit:cover;
+  width: 100%;
+  height: auto;
+  margin: 25px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sinyuu {
+  padding: 30px 0 30px 0;
+  line-height: 1.7;
+}
+
+.sinyuu h2,
+.sinyuu h3 {
+  font-size: 30px;
+}
+
+.sinyuu p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 543px) {
+  .kuwashiku {
+    display: block;
+  }
+}
