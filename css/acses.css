@@ -35,3 +35,8 @@ main h1 {
   width: 40px;
   height: auto;
 }
+
+.tyuui {
+  text-align: center;
+  color: tomato;
+}
