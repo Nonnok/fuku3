@@ -96,3 +96,8 @@ main p {
 }
 
 /* 吹き出し end */
+
+.ninehour {
+  text-align: center;
+  font-size: 20px;
+}
