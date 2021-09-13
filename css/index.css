@@ -8,8 +8,27 @@
   border: 2px solid #426579;
   border-radius: 12px;
   background-color: #eaf4fc;
+  transition: .3s;
 }
 
 .greet p {
   padding: 12px;
+}
+
+.terumii-link {
+  text-align: center;
+  width: 500px;
+  margin: 25px auto 25px auto;
+}
+
+.terumii-link a {
+  color: #d7a98c;
+  transition: .3s;
+  width: 500px;
+  margin: 25px auto 25px auto;
+}
+
+.terumii-link:hover {
+  color: #fddea5;
+  background: #fde8d0;
 }

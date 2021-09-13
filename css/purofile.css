@@ -7,7 +7,7 @@
   font-size: 20px;
 }
 
-img {
+.purof-img {
   width: 240px;
   height: auto;
   float: right;
@@ -36,7 +36,7 @@ img {
 }
 
 @media screen and (max-width: 690px) {
-  img {
+  .purof-img {
     display: block;
     float: none;
     margin: 0 auto 0 auto;
