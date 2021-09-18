@@ -39,8 +39,9 @@ main h1:after {
 
 .tuiki {
   display: block;
-  width: 24em;
+  width: 100%;
   margin: 0 auto 0 auto;
+  word-break: keep-all;
 }
 /* 
 main h1 {

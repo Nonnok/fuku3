@@ -17,18 +17,23 @@
 
 .terumii-link {
   text-align: center;
-  width: 500px;
+  width: 80%;
   margin: 25px auto 25px auto;
 }
 
 .terumii-link a {
   color: #d7a98c;
   transition: .3s;
-  width: 500px;
+  width: 80%;
   margin: 25px auto 25px auto;
 }
 
 .terumii-link:hover {
   color: #fddea5;
   background: #fde8d0;
+}
+
+.top-img {
+  width: 100%;
+  height: auto;
 }

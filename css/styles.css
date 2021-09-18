@@ -22,12 +22,12 @@ li {
   list-style: none;
 }
 
-.title {
+/* .title {
   text-align: center;
   border-bottom: 2px dashed #a0522d;
   padding-top: 12px;
   padding-bottom: 12px;
-}
+} */
 
 nav ul, nav li {
   margin: 0;
@@ -100,9 +100,14 @@ footer {
   font-size: 24px;
 }
 
-.icon {
-  display: flex;
-  justify-content: center;
+.titile {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
   background: #fff;
+}
+
+.icon {
   border-bottom: 2px #773c30 dashed;
+  background: white;
 }

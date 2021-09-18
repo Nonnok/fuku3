@@ -1,3 +1,7 @@
+p {
+  word-break: keep-all;
+}
+
 .purof li {
   font-size: 20px;
 }

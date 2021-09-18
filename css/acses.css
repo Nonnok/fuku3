@@ -1,7 +1,7 @@
 .map {
   width: 100%;
   margin: 0 auto 0 auto;
-  height: 650px;
+  height: auto;
 }
 
 .link {
@@ -24,6 +24,7 @@ main h1 {
   background: #eaedf7;
   border-radius: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .foneicon {
@@ -37,6 +38,8 @@ main h1 {
 }
 
 .tyuui {
-  text-align: center;
+  text-align: left;
   color: tomato;
+  width: 80%;
+  margin: 0 auto;
 }
