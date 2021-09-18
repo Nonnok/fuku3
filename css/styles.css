@@ -100,6 +100,9 @@ footer {
   font-size: 24px;
 }
 
-.title {
-  font-size: 24px;
+.icon {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 2px #773c30 dashed;
 }

@@ -29,10 +29,7 @@
   background: #8c7042;
 }
 
-.explanation img,
-.feature img,
-.corporate img,
-.HomeTherapy img {
+.panf img {
   object-fit:cover;
   width: 100%;
   height: auto;
