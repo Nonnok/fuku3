@@ -44,10 +44,21 @@
 }
 
 .sinyuu h2,
-.sinyuu h3 {
+.sinyuu h3,
+.sinyuu a {
   font-size: 3vw;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+}
+
+.sinyuu a {
+  color: blue;
+  transition: .3s;
+}
+
+.sinyuu a:hover {
+  color: skyblue;
 }
 
 
@@ -58,4 +69,25 @@
   .panf img {
     width: 100%;
   }
+}
+
+.tyuui {
+  margin: 20px auto 20px auto;
+  background: #eaedf7;
+  width: 80%;
+  padding: 20px;
+}
+
+.tyuui h2 {
+  text-align: center;
+  color: tomato;
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+.tyuui p {
+  width: 80%;
+  margin: 0 auto;
+  /* word-break: keep-all; */
+  text-indent: -1em;
 }

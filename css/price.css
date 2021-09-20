@@ -67,13 +67,51 @@ td {
 
 .balloon1-left p {
   margin: 0;
-  padding: 0;
-  width: 95%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 /* 吹き出し end */
 
-/* 吹き出しcontents */
-.p1, .p2, .p3, .p4, .p5 {
-  text-indent: 1em;
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  /* word-break: keep-all; */
+  text-indent: -1em;
 }
-/* 吹き出しcontents end */
+
+.pras {
+  position: relative;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 20px 10px;
+  width: 75%;
+  color: #555;
+  font-size: 16px;
+  background: #e7e7ed;
+  margin: 0 auto 0 auto;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pras:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e7e7ed;
+}
+
+
+.purasu {
+  color: tomato;
+}
+
+.houmon {
+  margin-bottom: 10px;
+}

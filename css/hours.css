@@ -8,11 +8,12 @@ table {
   margin: 45px auto 25px auto;
   width: 85%;
   table-layout: fixed;
-  height: 300px;
+  height: 250px;
 }
 
 td {
   padding: 25px;
+  word-break: keep-all;
 }
 
 main h1 {
@@ -42,6 +43,7 @@ main h1:after {
   width: 80%;
   margin: 0 auto 0 auto;
   word-break: keep-all;
+  color: tomato;
 }
 
 main h1:after,
@@ -65,31 +67,14 @@ main p {
   margin: 0 auto 0 auto;
 }
 
-/* 吹き出し */
+
+
 .balloon1 {
-  position: relative;
-  margin: 1.5em 0;
-  padding: 7px 10px;
-  font-size: 16px;
-  width: 75%;
-  background: #e7e7ed;
-  margin: 0 auto 50px auto;
-  color: #555;
-  font-size: 16px;
-  background: #e7e7ed;
+  width: 70%;
+  background: #e1e6f5;
+  margin: 20px auto 0 auto;
+  border-radius: 12px;
 }
-
-.balloon1:before {
-  content: "";
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  margin-left: -15px;
-  border: 15px solid transparent;
-  border-bottom: 15px solid #e7e7ed;
-}
-
-/* 吹き出し end */
 
 .ninehour {
   text-align: center;
@@ -101,4 +86,12 @@ main p {
     width: 75%;
     word-break: break-all;
   }
+  .tobidashi {
+    padding: 2px;
+  }
 }
+
+.hirosugi {
+  width: 4em;
+}
+

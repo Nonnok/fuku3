@@ -12,6 +12,10 @@
   font-size: 18px;
 }
 
+.link a {
+  color: blue;
+}
+
 
 main h1 {
   color: #1f3234;
@@ -42,4 +46,9 @@ main h1 {
   color: tomato;
   width: 80%;
   margin: 0 auto;
+}
+
+.link span {
+  font-size: small;
+  color: silver;
 }
