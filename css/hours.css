@@ -1,7 +1,7 @@
 table, th, td {
   border: #426579 2.5px solid;
   background: #eaedf7;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
 }
 
 table {
@@ -9,6 +9,7 @@ table {
   width: 85%;
   table-layout: fixed;
   height: 250px;
+  border-color: #96514d;
 }
 
 td {
@@ -38,13 +39,13 @@ main h1:after {
   margin-left: .5em;
 }
 
-.tuiki {
+/* .tuiki {
   display: block;
   width: 80%;
   margin: 0 auto 0 auto;
   word-break: keep-all;
   color: #333;
-}
+} */
 
 main h1:after,
 main h1:before {
@@ -67,7 +68,10 @@ main p {
   margin: 0 auto 0 auto;
 }
 
-
+.tuiki {
+  background-color: #fdeff2;
+  border-color: #f2a0a1;
+}
 
 .balloon1 {
   width: 70%;
@@ -87,7 +91,7 @@ main p {
     word-break: break-all;
   }
   .tobidashi {
-    padding: 2px;
+    padding: 12px;
   }
 }
 
@@ -95,3 +99,6 @@ main p {
   width: 4em;
 }
 
+.ume {
+  background-color: #fdeff2;
+}

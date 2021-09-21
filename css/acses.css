@@ -31,16 +31,6 @@ main h1 {
   width: 100%;
 }
 
-.foneicon {
-  width: 40px;
-  height: auto;
-}
-
-.mailicon {
-  width: 40px;
-  height: auto;
-}
-
 .tyuui {
   text-align: left;
   color: tomato;
@@ -48,7 +38,20 @@ main h1 {
   margin: 0 auto;
 }
 
-.link span {
-  font-size: small;
-  color: gray;
+.snsicon {
+  width: 25px;
+  height: 25px;
 }
+
+.idlink {
+  display: inline-block;
+  align-items: center;
+  color: black;
+  height: 25px;
+}
+/* .idlink {
+  display: inline-block;
+  align-items: center;
+  color: black;
+  height: 25px;
+} */

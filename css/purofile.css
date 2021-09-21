@@ -9,6 +9,9 @@ p {
 .profcontent p {
   line-height: 1.7;
   font-size: 20px;
+  word-break: keep-all;
+  word-wrap: break-word;
+  margin: 0 auto;
 }
 
 .purof-img {
@@ -32,7 +35,8 @@ p {
 }
 
 .profcontent {
-  margin-top: 100px;
+  margin: 150px auto 50px auto;
+  width: 90%;
 }
 
 .purof li {
@@ -69,6 +73,13 @@ p {
     text-align: center;
     display: block;
     margin: 0 auto 0 auto;
+  }
+  .profcontent {
+    margin: 50px auto 50px auto;
+    width: 85%;
+  }
+  .profcontent p {
+    font-size: 18px;
   }
 }
 
