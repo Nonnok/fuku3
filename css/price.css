@@ -54,7 +54,7 @@ td {
   margin: 0 auto 0 auto;
   line-height: 1.6;
 }
-
+/* 
 .balloon1-left:before {
   content: "";
   position: absolute;
@@ -63,7 +63,7 @@ td {
   margin-top: -15px;
   border: 15px solid transparent;
   border-right: 15px solid #e7e7ed;
-}
+} */
 
 .balloon1-left p {
   margin: 0;
@@ -97,7 +97,7 @@ td {
   margin-bottom: 20px;
 }
 
-.pras:before {
+/* .pras:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -105,7 +105,7 @@ td {
   margin-top: -15px;
   border: 15px solid transparent;
   border-right: 15px solid #e7e7ed;
-}
+} */
 
 
 .purasu {

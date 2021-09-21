@@ -19,11 +19,11 @@
   text-align: center;
   width: 80%;
   margin: 25px auto 25px auto;
+  transition: .3s;
 }
 
 .terumii-link a {
   color: #d7a98c;
-  transition: .3s;
   width: 80%;
   margin: 25px auto 25px auto;
 }
