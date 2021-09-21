@@ -49,9 +49,7 @@ main h1 {
   color: black;
   height: 25px;
 }
-/* .idlink {
-  display: inline-block;
-  align-items: center;
-  color: black;
-  height: 25px;
-} */
+
+.and {
+  font-size: 20px;
+}
