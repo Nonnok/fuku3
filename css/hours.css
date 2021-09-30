@@ -75,7 +75,7 @@ main p {
 
 .balloon1 {
   width: 70%;
-  background: #e9ecf5;
+  /* background: #e9ecf5; */
   margin: 20px auto 0 auto;
   border-radius: 12px;
 }
@@ -101,4 +101,14 @@ main p {
 
 .ume {
   background-color: #fdeff2;
+}
+
+.wrapper {
+  background-color: #fdf5e6;
+  max-width: 900px;
+  width: 95%;
+}
+
+.body {
+  background-image: url(../img/fuku333.png);
 }

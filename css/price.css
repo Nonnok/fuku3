@@ -115,3 +115,7 @@ td {
 .houmon {
   margin-bottom: 10px;
 }
+
+.br {
+  word-break: keep-all;
+}
