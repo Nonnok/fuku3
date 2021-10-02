@@ -95,6 +95,7 @@ td {
   margin: 0 auto 0 auto;
   line-height: 1.6;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 /* .pras:before {
@@ -110,6 +111,8 @@ td {
 
 .purasu {
   color: tomato;
+  word-break: keep-all;
+  text-align: center;
 }
 
 .houmon {
@@ -118,4 +121,10 @@ td {
 
 .br {
   word-break: keep-all;
+}
+
+.houmon-catch {
+  font-size: 24px;
+  word-break: keep-all;
+  text-align: center;
 }
