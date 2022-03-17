@@ -1,7 +1,6 @@
 table, th, td {
   border: #426579 2.5px solid;
   background: #eaedf7;
-  /* border-collapse: collapse; */
 }
 
 table {
@@ -39,14 +38,6 @@ main h1:after {
   margin-left: .5em;
 }
 
-/* .tuiki {
-  display: block;
-  width: 80%;
-  margin: 0 auto 0 auto;
-  word-break: keep-all;
-  color: #333;
-} */
-
 main h1:after,
 main h1:before {
   content: "";
@@ -75,7 +66,6 @@ main p {
 
 .balloon1 {
   width: 70%;
-  /* background: #e9ecf5; */
   margin: 20px auto 0 auto;
   border-radius: 12px;
 }
@@ -106,9 +96,5 @@ main p {
 .wrapper {
   background-color: #fdf5e6;
   max-width: 900px;
-  width: 95%;
-}
-
-.body {
-  background-image: url(../img/fuku333.png);
+  width: 100%;
 }
