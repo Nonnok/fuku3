@@ -28,7 +28,8 @@ nav ul, nav li {
 }
 
 nav {
-  margin: 10px 0 18px 0;
+  margin: 0 0 18px 0;
+	background: white;
 }
 
 nav ul {
@@ -48,15 +49,6 @@ nav a {
 
 .key-visual {
   width: 100%;
-}
-
-@media screen and(max-width: 651px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav li {
-    flex-direction: column;
-  }
 }
 
 .wrapper {
@@ -81,15 +73,6 @@ footer {
   height: 122px;
   float: right;
   border-radius: 0 0 0 10px;
-}
-
-.kanji {
-  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
-  font-size: 34px;
-}
-
-.huku2 {
-  font-size: 24px;
 }
 
 .titile {
@@ -206,8 +189,27 @@ footer {
 	}
 }
 
+header {
+	display: block;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	width: 100%;
+	max-width: 900px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+main {
+	padding-top: 270px;
+}
+
+
 @media (max-width: 950px) {
-  .normal-menu{
-    display: none;
-  }
+	.normal-menu{
+		display: none;
+	}
+	main {
+		padding-top: 180px;
+	}
 }

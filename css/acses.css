@@ -53,3 +53,19 @@ main h1 {
 .and {
   font-size: 20px;
 }
+
+main {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    padding-top: 125px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main {
+    padding-top: 90px;
+  }
+}

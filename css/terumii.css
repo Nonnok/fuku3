@@ -61,6 +61,16 @@
   color: skyblue;
 }
 
+main {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    padding-top: 140px;
+  }
+}
+
 
 @media screen and (max-width: 543px) {
   .kuwashiku {
@@ -74,6 +84,10 @@
   .sinyuu h3,
   .sinyuu a {
     font-size: 16px;
+  }
+
+  main {
+    padding-top: 50px;
   }
 }
 
