@@ -212,4 +212,7 @@ main {
 	main {
 		padding-top: 180px;
 	}
+	.hamburger-demo-switch {
+		width: 2em;
+	}
 }

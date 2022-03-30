@@ -9,8 +9,6 @@ p {
 .profcontent p {
   line-height: 1.7;
   font-size: 20px;
-  /* word-break: keep-all; */
-  /* word-wrap: break-word; */
   margin: 0 auto;
 }
 
@@ -90,3 +88,46 @@ p {
 .nenpyou5 {
   word-break: keep-all;
 }
+
+.nenpyou-box {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    padding-top: 180px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .nenpyou {
+     display: none;
+  }
+
+  .nenpyou-box {
+    display: inline-block;
+  }
+  .nenpyou-img {
+    display: inline-block;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  main {
+    padding-top: 90px;
+  }
+  .nenpyou-img {
+    width: 85%;
+  }
+  .nenpyou-box {
+    display: flex;
+    justify-content: center;
+  }
+} 

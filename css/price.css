@@ -54,16 +54,6 @@ td {
   margin: 0 auto 0 auto;
   line-height: 1.6;
 }
-/* 
-.balloon1-left:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  margin-top: -15px;
-  border: 15px solid transparent;
-  border-right: 15px solid #e7e7ed;
-} */
 
 .balloon1-left p {
   margin: 0;
@@ -80,7 +70,6 @@ td {
   display: block;
   width: 90%;
   margin: 0 auto;
-  /* word-break: keep-all; */
   text-indent: -1em;
 }
 
@@ -98,17 +87,6 @@ td {
   border-radius: 5px;
 }
 
-/* .pras:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  margin-top: -15px;
-  border: 15px solid transparent;
-  border-right: 15px solid #e7e7ed;
-} */
-
-
 .purasu {
   color: tomato;
   text-align: center;
@@ -124,11 +102,29 @@ td {
 
 .houmon-catch {
   font-size: 18px;
-  /* word-break: keep-all; */
   text-align: center;
 }
 
 pre {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    padding-top: 180px;
+    width: 100%
+  }
+  main h1 {
+    font-size: 24px;
+  }
+  main table {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  main {
+    padding-top: 120px;
+  }
 }

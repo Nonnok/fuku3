@@ -98,3 +98,22 @@ main p {
   max-width: 900px;
   width: 100%;
 }
+
+@media screen and (max-width: 950px) {
+  main {
+    padding-top: 180px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    padding-top: 90px;
+  }
+  main h1 {
+    font-size: 24px;
+  }
+  .koredake,
+  .tobidashi {
+    padding: 0;
+  }
+}
