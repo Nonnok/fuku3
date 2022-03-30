@@ -43,16 +43,6 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  color: #426579;
-  text-decoration: none;
-  transition: .3s;
-  line-break: strict;
-}
-
-.newscard-wrapper:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  -ms-filter: "alpha(opacity=70)";
 }
 
 .news-top-img {
@@ -65,6 +55,19 @@
   cursor: pointer;
   border: 1px solid #e9eaea;
   border-radius: 3px;
+  color: #426579;
+  transition: .3s;
+  line-break: strict;
+}
+
+.newscard-wrapper a {
+  text-decoration: none;
+}
+
+.card:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
 }
 
 .text-box {
