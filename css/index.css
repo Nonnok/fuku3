@@ -17,14 +17,14 @@
 
 .terumii-link {
   text-align: center;
-  width: 80%;
+  width: 60%;
   margin: 25px auto 25px auto;
   transition: .3s;
 }
 
 .terumii-link a {
   color: #d7a98c;
-  width: 80%;
+  width: 60%;
   margin: 25px auto 25px auto;
 }
 
@@ -36,4 +36,53 @@
 .top-img {
   width: 100%;
   height: auto;
+}
+
+.newscard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #426579;
+  text-decoration: none;
+  transition: .3s;
+  line-break: strict;
+}
+
+.newscard-wrapper:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+
+.news-top-img {
+  width: 80%;
+  height: auto;
+}
+
+.card {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #e9eaea;
+  border-radius: 3px;
+}
+
+.text-box {
+  padding: 15px;
+  background: white;
+}
+
+.text-box h2 {
+  text-decoration: underline;
+}
+
+.news-img {
+  padding: 10px 0;
+  text-align: center;
+  background: #e1f3ff;
+}
+
+.news-date {
+  font-size: 10px;
+  margin-top: 5px;
 }
