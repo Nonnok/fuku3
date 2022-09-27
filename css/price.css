@@ -63,10 +63,7 @@ td {
 /* 吹き出し end */
 
 
-.p1,
-.p2,
-.p3,
-.p4 {
+.price-page-p {
   display: block;
   width: 90%;
   margin: 0 auto;
