@@ -8,23 +8,23 @@
   margin: 45px o 45px 5px;
 }
 
-.terumii-title {
+.thermie-title {
   margin: 50px 0 50px 0;
   background: #e8d3c7;
 }
 
-.terumii-title span {
+.thermie-title span {
   font-size: 15px;
 }
 
-.terumii-title a {
+.thermie-title a {
   text-decoration: none;
   color: #e8d3d1;
   transition: .5s;
   background: #956f29;
 }
 
-.terumii-title a:hover {
+.thermie-title a:hover {
   color: white;
   background: #8c7042;
 }
