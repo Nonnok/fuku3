@@ -15,20 +15,20 @@
   padding: 12px;
 }
 
-.terumii-link {
+.ito-thermie-link {
   text-align: center;
   width: 60%;
   margin: 25px auto 25px auto;
   transition: .3s;
 }
 
-.terumii-link a {
+.ito-thermie-link a {
   color: #d7a98c;
   width: 60%;
   margin: 25px auto 25px auto;
 }
 
-.terumii-link:hover {
+.ito-thermie-link:hover {
   color: #fddea5;
   background: #fde8d0;
 }
